@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/contact.css" />
+    <link rel="stylesheet" href="../assets/css/contact.css" />
     <!-------------------- fonts ------------------->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,18 +21,23 @@
         <h2>DESCUBRE <br />BUENOS AIRES</h2>
         <img
           class="logo-bs"
-          src="./assets/buenos-aires-mapa.png"
+          src="../assets/buenos-aires-mapa.png"
           alt="buenos-aires-mapa"
         />
-        <img class="linea-logo" src="./assets/subrayado.png" alt="" />
+        <img class="linea-logo" src="../assets/subrayado.png" alt="" />
       </div>
-      <nav>
+      <nav class="nav">
         <ul class="header-ul">
-          <li><a href="">HOME</a></li>
-          <li><a href="">DESCUBRI</a></li>
-          <li><a href="">CONTACTO</a></li>
+          <li><a href="./home.html">HOME</a></li>
+          <li><a href="./descubri.html">DESCUBRI</a></li>
+          <li><a href="./contact.html">CONTACTO</a></li>
         </ul>
       </nav>
+      <span class="hamburger">
+        <div class="bars bar-1"></div>
+        <div class="bars bar-2"></div>
+        <div class="bars bar-3"></div>      
+      </span>
     </header>
     <main>
       <div class="contact-info">
@@ -53,5 +58,6 @@
         </div>
       </form>
     </main>
+    <script src="../js/contact.js"></script>
   </body>
 </html>
