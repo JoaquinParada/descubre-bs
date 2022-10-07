@@ -282,3 +282,15 @@ h1::selection{
     font-style: italic;
     text-decoration: underline;
 }
+
+body{
+    background-image: radial-gradient(
+    circle,
+    #fffbee,
+    #fffbee,
+    #fffaed,
+    #fffaed,
+    #fff9ed
+  );
+    /* background-image: linear-gradient(to top, #f6f3e8, #f3eedf, #f1ead7, #f0e5ce, #eee0c6); */
+}
