@@ -1,0 +1,30 @@
+[
+  {
+    "nombre": "Teatro Colon",
+    "descripcion": "El teatro colón es un teatro de ópera de la ciudad autónoma de Buenos Aires, Argentina. Por su tamaño, acustica y trayectorua, ha llegado a ser considerado como uno de los mejores teatros líricos del mundo. Según una encuesta realizada por el experto en acústuca Leo Beranek a destacados directores internacionales de ópera y de orquesta, el tratro colón posee la salla con la mejor acústica para ópera y la segunda mejor para concientos del mundo",
+    "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.49366122425!2d-58.3830786!3d-34.6010406!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x53386f2ac88991a9!2sTeatro%20Col%C3%B3n!5e0!3m2!1sen!2sar!4v1665080583579!5m2!1sen!2sar",
+    "imagen": "../assets/imagenes-lugares/teatro-colon.png",
+    "sitio": "https://teatrocolon.org.ar/es"
+  },
+  {
+    "nombre": "Museo de ciencias naturales",
+    "descripcion": "El Museo Argentino de Ciencias Naturales Bernardino Rivadavia (MACN) es uno de los principales museos de ciencias naturales de la República Argentina. Fue fundado en 1812 y está ubicado en el Parque Centenario, en el barrio de Caballito, en la Ciudad Autónoma de Buenos Aires.Actualmente el museo es unidad ejecutora del Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), dependiente del Ministerio de Ciencia, Tecnología e Innovación Productiva (MINCyT). Ámbito único por historia y patrimonio, integra a la investigación, la conservación, la exhibición, y la educación para que toda la comunidad pueda descubrir, comprender, valorar y disfrutar la naturaleza, sus procesos y diversidad, con énfasis en nuestro territorio",
+    "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13135.720925389358!2d-58.4380354!3d-34.6059257!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8a7e8de50dd0046e!2sBernardino%20Rivadavia%20Museum%20of%20Natural%20Science!5e0!3m2!1sen!2sar!4v1665080865285!5m2!1sen!2sar",
+    "imagen": "../assets/imagenes-lugares/museo-ciencias-naturales.png",
+    "sitio": "https://www.macnconicet.gob.ar/"
+  },
+  {
+    "nombre": "Malba",
+    "descripcion": "El Museo de Arte Latinoamericano de Buenos Aires (Malba) Fundación Costantini, más conocido simplemente como MALBA, es un museo argentino fundado en septiembre de 2001. Fue creado con el objetivo de coleccionar, preservar, estudiar y difundir el arte latinoamericano desde principios del siglo XX hasta la actualidad. Es una institución privada sin fines de lucro que conserva y exhibe un patrimonio de aproximadamente 400 obras de los principales artistas modernos y contemporáneos de la región.",
+    "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13140.310366382902!2d-58.4033959!3d-34.5769032!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeea87be2795e86d2!2sMuseum%20of%20Latin%20American%20Art%20of%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1665081090592!5m2!1sen!2sar",
+    "imagen": "../assets/imagenes-lugares/malba.png",
+    "sitio": "https://www.malba.org.ar/en/"
+  },
+  {
+    "nombre": "Cementerio De La Recoleta",
+    "descripcion": "El Cementerio de la Recoleta es un famoso cementerio de la ciudad de Buenos Aires, Argentina. Está ubicado en el barrio de Recoleta y contiene las tumbas de personas muy reconocidas. Se inauguró el 17 de noviembre de 1822, durante la gobernación del brigadier general Martín Rodríguez, siendo ministro de Gobierno Bernardino Rivadavia. Se transformó así en el primer cementerio público de la ciudad. Fue diseñado por Próspero Catelin, reservándose el gobierno parcelas para personalidades ilustres en la formación del Estado nacional. En 1880, Torcuato de Alvear—el primer intendente de la ciudad de Buenos Aires—encomendó al arquitecto Juan Antonio Buschiazzo para la remodelación del cementerio. Se rodeó con un muro de ladrillos, se pavimentaron sus calles y se construyó una entrada de estilo neoclásico",
+    "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13138.63766859199!2d-58.3934409!3d-34.5874834!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa1180ac6dc17a5c3!2sRecoleta%20Cemetery!5e0!3m2!1sen!2sar!4v1665081168477!5m2!1sen!2sar",
+    "imagen": "../assets/imagenes-lugares/cementerio-de-la-recoleta.png",
+    "sitio": "https://www.buenosaires.gob.ar/cementerio-de-la-recoleta"
+  }
+]
