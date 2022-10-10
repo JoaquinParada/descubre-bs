@@ -254,3 +254,14 @@ textarea {
   transition: 0.75s translate ease-in-out;
   translate: -20px;
 }
+
+body {
+  background-image: radial-gradient(
+    circle,
+    #fffbee,
+    #fffbee,
+    #fffaed,
+    #fffaed,
+    #fff9ed
+  );
+}

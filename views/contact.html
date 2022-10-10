@@ -47,17 +47,68 @@
           <p>Si queres ponerte en contacto con nosotros escibinos un mensaje</p>
         </div>
       </div>
+
+      <!-- <form name="f1" class="form" onsubmit="return validacion();"> -->
+      <!-- <form name="f1" action="destino.html" onsubmit="return validacion();"> -->
       <form action="" class="form">
-        <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" />
+        <!-- <label for="nombre">Nombre</label> -->
+        <!-- <input type="text" id="nombre" name="nombre" /> -->
+        <!-- <input type="text" id="nombre" name="nombre" /> -->
+
+        <label for="nombre">Nombre:</label>
+        <!-- <input type="text" id="nombre">  -->
+        <input type="text" id="nombre"> <label id="mensaje"></label><br><br>
+        
+        <!-- <input type="text" id="nombre"> <label id="mensaje"></label><br><br> -->
         <label for="email">Mail</label>
-        <input type="email" name="email" />
+        <input type="email" id="email" name="email" />
         <label for="mensaje">Mensaje</label>
         <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
         <div class="btn-container">
-          <button class="btn">ENVIAR</button>
+          <!-- <button class="btn">ENVIAR</button> -->
+          <button onclick="validacion()" class="btn" >ENVIAR</button>
+          <!-- <button onclick="myFunction()">Try it</button> -->
         </div>
       </form>
+
+      <script>
+        function validacion() 
+        {
+            // VALIDACION NOMBRE
+            valor = document.getElementById("nombre").value;
+            if( valor == null || valor.length == 0) 
+            {
+              // alert("Ingrese Nombre!!");
+                // document.getElementById('mensaje').innerHTML = "Complete el Nombre!";
+                elemento = document.getElementById('nombre');
+                elemento.focus();
+                
+                alert("Ingrese Nombre!!");
+                return false;
+                
+            }
+
+            // VALIDACION EMAIL
+            valor = document.getElementById("email").value;
+            
+              
+            if (!(/^\w+([\.-]?\w+)*@(?:|hotmail|outlook|yahoo|live|gmail)\.(?:|com|ar)+$/.test(valor)))
+            {
+                //document.getElementById('mensaje').innerHTML = "No es una direccion de email correcta" ;
+                
+                elemento = document.getElementById('email');
+                // elemento.value = '';
+                elemento.focus();
+                alert("Ingrese Email!!");
+                return false;
+            }
+                
+                     
+            alert("Gracias por compeltar sus datos!!");
+            return true;          
+        }
+    </script>
+
     </main>
     <script src="../js/contact.js"></script>
   </body>
