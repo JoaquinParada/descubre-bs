@@ -22,3 +22,40 @@ function slideNav(){
   }
 
 }
+
+
+function validacion() 
+{
+    // VALIDACION NOMBRE
+    valor = document.getElementById("nombre").value;
+    if( valor == null || valor.length == 0) 
+    {
+      // alert("Ingrese Nombre!!");
+        // document.getElementById('mensaje').innerHTML = "Complete el Nombre!";
+        elemento = document.getElementById('nombre');
+        elemento.focus();
+        
+        alert("Ingrese Nombre!!");
+        return false;
+        
+    }
+
+    // VALIDACION EMAIL
+    valor = document.getElementById("email").value;
+    
+      
+    if (!(/^\w+([\.-]?\w+)*@(?:|hotmail|outlook|yahoo|live|gmail)\.(?:|com|ar)+$/.test(valor)))
+    {
+        //document.getElementById('mensaje').innerHTML = "No es una direccion de email correcta" ;
+        
+        elemento = document.getElementById('email');
+        elemento.value = '';
+        elemento.focus();
+        alert("Ingrese Email!!");
+        return false;
+    }
+        
+             
+    alert("Gracias por compeltar sus datos!!");
+    return true;          
+}

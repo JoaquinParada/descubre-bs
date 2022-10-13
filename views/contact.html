@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="../assets/css/contact.css" />
     <!-------------------- fonts ------------------->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="icon" type="image/x-icon" href="/assets/caba/caba_3.jpg" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Descubre buenos aires</title>
   </head>
   <body>
@@ -71,45 +72,41 @@
         </div>
       </form>
 
-      <script>
-        function validacion() 
-        {
-            // VALIDACION NOMBRE
-            valor = document.getElementById("nombre").value;
-            if( valor == null || valor.length == 0) 
-            {
-              // alert("Ingrese Nombre!!");
-                // document.getElementById('mensaje').innerHTML = "Complete el Nombre!";
-                elemento = document.getElementById('nombre');
-                elemento.focus();
-                
-                alert("Ingrese Nombre!!");
-                return false;
-                
-            }
-
-            // VALIDACION EMAIL
-            valor = document.getElementById("email").value;
-            
-              
-            if (!(/^\w+([\.-]?\w+)*@(?:|hotmail|outlook|yahoo|live|gmail)\.(?:|com|ar)+$/.test(valor)))
-            {
-                //document.getElementById('mensaje').innerHTML = "No es una direccion de email correcta" ;
-                
-                elemento = document.getElementById('email');
-                // elemento.value = '';
-                elemento.focus();
-                alert("Ingrese Email!!");
-                return false;
-            }
-                
-                     
-            alert("Gracias por compeltar sus datos!!");
-            return true;          
-        }
-    </script>
-
     </main>
+
+    <!-- Footer Menu -->
+<footer id="footer">
+ 
+  <!-- Copyright Section -->
+  <div class="copyright">
+       
+<p>Milagros Florenza / Joaquín Parada / Carla González</p>
+<p>© 2022 Todos los derechos Reservados | Para Codo a Codo</p>
+
+
+
+      <ul class="contact">
+          <li>
+              <a href="#" class="fa fa-twitter">
+
+              </a>
+          </li>
+
+          <li>
+              <a href="#" class="fa fa-facebook">
+
+              </a>
+          </li>
+
+          <li>
+              <a href="#" class="fa fa-pinterest-p">
+
+              </a>
+          </li>
+      </ul>
+  </div>
+</footer>    
+
     <script src="../js/contact.js"></script>
   </body>
 </html>
