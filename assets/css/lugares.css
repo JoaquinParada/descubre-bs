@@ -1,10 +1,61 @@
 /* lugares estilo propios dentro de la pagina lugares.html */
 .main-lugares {
-  padding: 150px 50px;
+  padding: 70px 50px;
   font-family: var(--roboto);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.filtro-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 350px;
+}
+.filtro-section h2{
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+.filtro-container{
+  display: flex;
+  gap: 50px;
+}
+.filtro-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color .5s;
+}
+.filtro-card:hover{
+  background-color: rgb(253, 223, 89);
+}
+.filtro-card img{
+  width: 100px;  
+}
+.filtro-nombre{
+  font-size: 20px;
+  font-family: var(--font-2);
+}
+.lugares-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.section-titulo{
+  background-color: black;
+  color: white;
+  width: fit-content;
+  padding: 5px 10px;
+  font-size: 45px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 .lugares-container {
   display: flex;

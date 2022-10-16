@@ -1,10 +1,26 @@
 let lugaresContainer = document.querySelector(".lugares-container");
+let filtroCard = document.querySelectorAll(".filtro-card");
+let titulo = document.querySelector(".section-titulo");
 
-fetch("../lugares.json")
+buscarLugares("Museos");
+
+filtroCard.forEach(el => {
+  let filtroNombre = el.querySelector(".filtro-nombre").textContent;
+  el.addEventListener("click", ()=> buscarLugares(filtroNombre))
+  
+});
+
+function buscarLugares(filtroNombre){
+  titulo.innerHTML = filtroNombre;
+
+  fetch("../lugares.json")
   .then((response) => response.json())
-  .then((data) => buscarLugares(data));
+  .then((data) => cargarLugares(data[filtroNombre]));
 
-function buscarLugares(data) {
+}
+
+
+function cargarLugares(data) {
   let lugares = "";
   for (let el of data) {
     let lugaresHTML = `

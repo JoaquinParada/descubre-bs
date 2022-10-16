@@ -1,30 +1,71 @@
-[
-  {
-    "nombre": "Teatro Colon",
-    "descripcion": "El teatro colón es un teatro de ópera de la ciudad autónoma de Buenos Aires, Argentina. Por su tamaño, acustica y trayectorua, ha llegado a ser considerado como uno de los mejores teatros líricos del mundo. Según una encuesta realizada por el experto en acústuca Leo Beranek a destacados directores internacionales de ópera y de orquesta, el tratro colón posee la salla con la mejor acústica para ópera y la segunda mejor para concientos del mundo",
-    "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.49366122425!2d-58.3830786!3d-34.6010406!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x53386f2ac88991a9!2sTeatro%20Col%C3%B3n!5e0!3m2!1sen!2sar!4v1665080583579!5m2!1sen!2sar",
-    "imagen": "../assets/imagenes-lugares/teatro-colon.png",
-    "sitio": "https://teatrocolon.org.ar/es"
-  },
-  {
-    "nombre": "Museo de ciencias naturales",
-    "descripcion": "El Museo Argentino de Ciencias Naturales Bernardino Rivadavia (MACN) es uno de los principales museos de ciencias naturales de la República Argentina. Fue fundado en 1812 y está ubicado en el Parque Centenario, en el barrio de Caballito, en la Ciudad Autónoma de Buenos Aires.Actualmente el museo es unidad ejecutora del Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), dependiente del Ministerio de Ciencia, Tecnología e Innovación Productiva (MINCyT). Ámbito único por historia y patrimonio, integra a la investigación, la conservación, la exhibición, y la educación para que toda la comunidad pueda descubrir, comprender, valorar y disfrutar la naturaleza, sus procesos y diversidad, con énfasis en nuestro territorio",
-    "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13135.720925389358!2d-58.4380354!3d-34.6059257!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8a7e8de50dd0046e!2sBernardino%20Rivadavia%20Museum%20of%20Natural%20Science!5e0!3m2!1sen!2sar!4v1665080865285!5m2!1sen!2sar",
-    "imagen": "../assets/imagenes-lugares/museo-ciencias-naturales.png",
-    "sitio": "https://www.macnconicet.gob.ar/"
-  },
-  {
-    "nombre": "Malba",
-    "descripcion": "El Museo de Arte Latinoamericano de Buenos Aires (Malba) Fundación Costantini, más conocido simplemente como MALBA, es un museo argentino fundado en septiembre de 2001. Fue creado con el objetivo de coleccionar, preservar, estudiar y difundir el arte latinoamericano desde principios del siglo XX hasta la actualidad. Es una institución privada sin fines de lucro que conserva y exhibe un patrimonio de aproximadamente 400 obras de los principales artistas modernos y contemporáneos de la región.",
-    "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13140.310366382902!2d-58.4033959!3d-34.5769032!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeea87be2795e86d2!2sMuseum%20of%20Latin%20American%20Art%20of%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1665081090592!5m2!1sen!2sar",
-    "imagen": "../assets/imagenes-lugares/malba.png",
-    "sitio": "https://www.malba.org.ar/en/"
-  },
-  {
-    "nombre": "Cementerio De La Recoleta",
-    "descripcion": "El Cementerio de la Recoleta es un famoso cementerio de la ciudad de Buenos Aires, Argentina. Está ubicado en el barrio de Recoleta y contiene las tumbas de personas muy reconocidas. Se inauguró el 17 de noviembre de 1822, durante la gobernación del brigadier general Martín Rodríguez, siendo ministro de Gobierno Bernardino Rivadavia. Se transformó así en el primer cementerio público de la ciudad. Fue diseñado por Próspero Catelin, reservándose el gobierno parcelas para personalidades ilustres en la formación del Estado nacional. En 1880, Torcuato de Alvear—el primer intendente de la ciudad de Buenos Aires—encomendó al arquitecto Juan Antonio Buschiazzo para la remodelación del cementerio. Se rodeó con un muro de ladrillos, se pavimentaron sus calles y se construyó una entrada de estilo neoclásico",
-    "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13138.63766859199!2d-58.3934409!3d-34.5874834!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa1180ac6dc17a5c3!2sRecoleta%20Cemetery!5e0!3m2!1sen!2sar!4v1665081168477!5m2!1sen!2sar",
-    "imagen": "../assets/imagenes-lugares/cementerio-de-la-recoleta.png",
-    "sitio": "https://www.buenosaires.gob.ar/cementerio-de-la-recoleta"
-  }
-]
+{
+  "Museos": [   
+    {
+      "nombre": "Museo de ciencias naturales",
+      "descripcion": "El Museo Argentino de Ciencias Naturales Bernardino Rivadavia (MACN) es uno de los principales museos de ciencias naturales de la República Argentina. Fue fundado en 1812 y está ubicado en el Parque Centenario, en el barrio de Caballito, en la Ciudad Autónoma de Buenos Aires.Actualmente el museo es unidad ejecutora del Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), dependiente del Ministerio de Ciencia, Tecnología e Innovación Productiva (MINCyT). Ámbito único por historia y patrimonio, integra a la investigación, la conservación, la exhibición, y la educación para que toda la comunidad pueda descubrir, comprender, valorar y disfrutar la naturaleza, sus procesos y diversidad, con énfasis en nuestro territorio",
+      "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13135.720925389358!2d-58.4380354!3d-34.6059257!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8a7e8de50dd0046e!2sBernardino%20Rivadavia%20Museum%20of%20Natural%20Science!5e0!3m2!1sen!2sar!4v1665080865285!5m2!1sen!2sar",
+      "imagen": "../assets/imagenes-lugares/museo-ciencias-naturales.png",
+      "sitio": "https://www.macnconicet.gob.ar/"
+    },
+    {
+      "nombre": "Malba",
+      "descripcion": "El Museo de Arte Latinoamericano de Buenos Aires (Malba) Fundación Costantini, más conocido simplemente como MALBA, es un museo argentino fundado en septiembre de 2001. Fue creado con el objetivo de coleccionar, preservar, estudiar y difundir el arte latinoamericano desde principios del siglo XX hasta la actualidad. Es una institución privada sin fines de lucro que conserva y exhibe un patrimonio de aproximadamente 400 obras de los principales artistas modernos y contemporáneos de la región.",
+      "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13140.310366382902!2d-58.4033959!3d-34.5769032!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeea87be2795e86d2!2sMuseum%20of%20Latin%20American%20Art%20of%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1665081090592!5m2!1sen!2sar",
+      "imagen": "../assets/imagenes-lugares/malba.png",
+      "sitio": "https://www.malba.org.ar/en/"
+    },
+    {
+      "nombre": "Museo nacional de bellas artes",
+      "descripcion": "El Museo Nacional de Bellas Artes (MNBA), ubicado en la Ciudad de Buenos Aires, es una de las instituciones públicas de arte más importantes de Argentina. Alberga un patrimonio sumamente diverso, que incluye más de 12.000 piezas, entre pinturas, esculturas, dibujos, grabados, textiles y objetos. Su colección está integrada por arte precolombino, colonial, argentino e internacional, en un rango temporal que va del siglo III a.C. a la actualidad. Su gravitación reside también en el número de visitantes, de todas las edades, diferentes estratos sociales, procedentes del país y del exterior",
+      "mapa": "//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.797528029628!2d-58.395193084405136!3d-34.583989380464594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaa199c2f643%3A0x49e543b8331abe7d!2sMuseo%20Nacional%20de%20Bellas%20Artes!5e0!3m2!1sen!2sar!4v1665947656681!5m2!1sen!2sar",
+      "imagen": "../assets/imagenes-lugares/museo-nacional-bellas-artes.png",
+      "sitio": "https://www.bellasartes.gob.ar/"
+    }    
+  ],
+  "Parques": [    
+    {
+      "nombre": "Jardin Japones",
+      "descripcion": "El Jardín Japonés se construyó con el aporte y esfuerzo de la Colectividad Japonesa en el año 1967, como testimonio de la primera visita a la Argentina de un integrante de la Familia Imperial Japonesa, el Príncipe Heredero Akihito y la Princesa Michiko. Este Jardín es un emblema representativo de la relación entre Argentina y Japón, donado por la Colectividad a través de la Embajada de Japón en la Argentina a la Municipalidad de la Ciudad de Buenos Aires en el año 1967",
+      "mapa": "//www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3285.1331715053316!2d-58.411339184175546!3d-34.575496763513804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sjardin%20japones!5e0!3m2!1sen!2sar!4v1665945327596!5m2!1sen!2sar",
+      "imagen": "../assets/imagenes-lugares/jardin-japones.png",
+      "sitio": "https://jardinjapones.org.ar/"
+    },
+    {
+      "nombre": "Rozedal De Palermo",
+      "descripcion": "El Rosedal de Palermo, también llamado Paseo del Rosedal, es un tradicional parque ubicado en el barrio de Palermo de la ciudad de Buenos Aires que integra el conjunto conocido como Parque Tres de Febrero. En sus 3,4 hectáreas posee 18.000 rosales y se encuentran emplazadas numerosas obras de arte, entre ellos 26 bustos de poetas y escritores, un puente griego y un patio andaluz. Fue declarado Patrimonio Cultural de la Ciudad de Buenos Aires por la legislatura porteña el 14 de abril de 2011",
+      "mapa": "//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.3246690200804!2d-58.4194882844054!3d-34.57065058046816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59e37604cd7%3A0xe1f378f0dcf68992!2sPaseo%20El%20Rosedal%20Garden!5e0!3m2!1sen!2sar!4v1665947324774!5m2!1sen!2sar",
+      "imagen": "../assets/imagenes-lugares/rozedal.png",
+      "sitio": "https://es.wikipedia.org/wiki/Rosedal_de_Palermo"
+    },
+    {
+      "nombre": "Cementerio De La Recoleta",
+      "descripcion": "El Cementerio de la Recoleta es un famoso cementerio de la ciudad de Buenos Aires, Argentina. Está ubicado en el barrio de Recoleta y contiene las tumbas de personas muy reconocidas. Se inauguró el 17 de noviembre de 1822, durante la gobernación del brigadier general Martín Rodríguez, siendo ministro de Gobierno Bernardino Rivadavia. Se transformó así en el primer cementerio público de la ciudad. Fue diseñado por Próspero Catelin, reservándose el gobierno parcelas para personalidades ilustres en la formación del Estado nacional. En 1880, Torcuato de Alvear—el primer intendente de la ciudad de Buenos Aires—encomendó al arquitecto Juan Antonio Buschiazzo para la remodelación del cementerio. Se rodeó con un muro de ladrillos, se pavimentaron sus calles y se construyó una entrada de estilo neoclásico",
+      "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13138.63766859199!2d-58.3934409!3d-34.5874834!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa1180ac6dc17a5c3!2sRecoleta%20Cemetery!5e0!3m2!1sen!2sar!4v1665081168477!5m2!1sen!2sar",
+      "imagen": "../assets/imagenes-lugares/cementerio-de-la-recoleta.png",
+      "sitio": "https://www.buenosaires.gob.ar/cementerio-de-la-recoleta"
+    }
+  ],
+  "Teatros": [
+    {
+      "nombre": "Teatro Colon",
+      "descripcion": "El teatro colón es un teatro de ópera de la ciudad autónoma de Buenos Aires, Argentina. Por su tamaño, acustica y trayectorua, ha llegado a ser considerado como uno de los mejores teatros líricos del mundo. Según una encuesta realizada por el experto en acústuca Leo Beranek a destacados directores internacionales de ópera y de orquesta, el tratro colón posee la salla con la mejor acústica para ópera y la segunda mejor para concientos del mundo",
+      "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.49366122425!2d-58.3830786!3d-34.6010406!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x53386f2ac88991a9!2sTeatro%20Col%C3%B3n!5e0!3m2!1sen!2sar!4v1665080583579!5m2!1sen!2sar",
+      "imagen": "../assets/imagenes-lugares/teatro-colon.png",
+      "sitio": "https://teatrocolon.org.ar/es"
+    },
+    {
+      "nombre": "Teatro Gran Rex",
+      "descripcion": "El Gran Rex es un teatro ubicado en la Avenida Corrientes (nº 857), a menos de 200 metros del Obelisco de Buenos Aires, Argentina. Es uno de los grandes teatros del mundo y con mayor capacidad de Sudamérica y forma un corredor junto al Ópera y al Tabarís, que funcionan en la misma cuadra",
+      "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.49366122425!2d-58.3830786!3d-34.6010406!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x53386f2ac88991a9!2sTeatro%20Col%C3%B3n!5e0!3m2!1sen!2sar!4v1665080583579!5m2!1sen!2sar",
+      "imagen": "../assets/imagenes-lugares/gran-rex.png",
+      "sitio": "https://teatro-granrex.com.ar/"
+    },
+    {
+      "nombre": "Teatro Avenida",
+      "descripcion": "El Teatro Avenida de Buenos Aires, Argentina, inaugurado en 1908 y reconstruido en 1994, ha sido tradicional sede de compañías españolas, de zarzuela, teatro y ópera1​ en su emplazamiento en el número 1222 de la Avenida de Mayo del barrio porteño de Montserrat. Tiene capacidad para 1200 espectadores y su estilo arquitectónico es Academicismo francés",
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.791717652404!2d-58.38586948417488!3d-34.60942796530855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccadaa2923479%3A0xd7ad5404e98d8613!2sTeatro%20Avenida!5e0!3m2!1sen!2sar!4v1665948637253!5m2!1sen!2sar",
+      "imagen": "../assets/imagenes-lugares/avenida.png",
+      "sitio": "http://www.balirica.org.ar/teatro-avenida.php"
+    }
+  ]
+}
