@@ -35,6 +35,10 @@ a {
   display: flex;
   gap: 30px;
 }
+#view-active{
+  background-color: white;
+  color: black;
+}
 
 .header-ul a {
   color: white;
