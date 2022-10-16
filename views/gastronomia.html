@@ -1,301 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../assets/css/gastronomia.css" />
 
-    <link rel="icon" type="image/x-icon" href="/assets/caba/caba_3.jpg" />
-    <!-- <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> -->
-    <!-------------------- fonts ------------------->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Descubre buenos aires</title>
-  </head>
-  <body>
-    <header>
-      <div class="header-logo-container">
-        <h2>DESCUBRE <br />BUENOS AIRES</h2>
-        <img
-          class="logo-bs"
-          src="../assets/buenos-aires-mapa.png"
-          alt="buenos-aires-mapa"
-        />
-        <img class="linea-logo" src="../assets/subrayado.png" alt="" />
-      </div>
-      <nav class="nav">
-        <ul class="header-ul">
-          <li><a href="../home.html">HOME</a></li>
-          <li><a href="./lugares.html">LUGARES</a></li>
-          <li><a href="./gastronomia.html">GASTRONOMIA</a></li>
-          <li><a href="./contact.html">CONTACTO</a></li>
-        </ul>
-      </nav>
-      <span class="hamburger">
-        <div class="bars bar-1"></div>
-        <div class="bars bar-2"></div>
-        <div class="bars bar-3"></div>
-      </span>
-    </header>
-    <main>
-      <div class="contenido-ppal">
-        <section class="secciones">
-          <!-- <br />
-          <h1>Ruta de la Pizza</h1>
-          <br />
-          <article>
-            <h3>
-              La pizza nació en Nápoles y es uno de los platos más emblemáticos
-              de la gastronomía italiana. Su influencia se extendió a todo el
-              mundo de la mano de inmigrantes italianos, que llevaron sus
-              recetas a cada rincón del planeta.
-            </h3>
-            <h3>
-              En la Argentina, la pizza se reversionó en Buenos Aires con un
-              estilo propio: la porteña, que son con masas al molde con mucho
-              queso por encima, como las que se pueden encontrar en las
-              pizzerías de la Avenida Corrientes. Sin embargo, son muchos los
-              adeptos y cada vez más los lugares que cocinan la verdadera pizza
-              italiana, de masa bien finita y bordes aireados.
-            </h3>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- css -->
+  <link rel="stylesheet" href="../assets/css/gastronomia.css" />
+  <link rel="stylesheet" href="../assets/css/style.css">
 
-            <br />
-          </article>
-          <article>
-            <img
-              src="/assets/imagenes-home/img_gastronomia_1.jpg"
-              style="float: right; padding-right: 10px"
-              width="400"
-              height="240"
-              alt="Pizzeria"
-            />
-            <div> -->
-          <!-- <div id="cabecera"> -->
-          <!-- <h3>1. GÜERRÍN</h3>
-              <h3 id="texto_seleccion">
-                <a href="https://guerrin.com.ar/" target="_blank">
-                  1. GÜERRÍN</a
-                >
-              </h3>
-              <h4>Dirección: Avenida Corrientes 1368</h4>
-              <h3 id="texto_seleccion">2. BANCHERO</h3>
-              <h4>Dirección: Av. Corrientes 1300 y Av. Corrientes 1604</h4>
-              <h3 id="texto_seleccion">
-                <a href="https://www.losinmortales.com/" target="_blank">
-                  3. LOS IMPORTALES</a
-                >
-              </h3>
-              <h4>Dirección: Avenida Corrientes 1369</h4>
-              <h3 id="texto_seleccion">
-                <a
-                  href="https://lamejorpizzeria.com/pizzerias/el-palacio-de-la-pizza/"
-                  target="_blank"
-                >
-                  4. EL PALACIO DE LA PIZZA</a
-                >
-              </h3>
-              <h4>Dirección: Av. Corrientes 751</h4>
-              <h3 id="texto_seleccion">
-                <a href="http://www.lascuartetas.com/" target="_blank">
-                  5. LAS CUARTETAS</a
-                >
-              </h3>
-              <h4>Dirección: Avenida Corrientes 838</h4>
+  <link rel="icon" type="image/x-icon" href="/assets/caba/caba_3.jpg" />
+  <!-- <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> -->
+  <!-------------------- fonts ------------------->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  <title>Descubre buenos aires</title>
+</head>
 
-              <br />
-            </div>
-          </article>
+<body>
+  <header>
+    <div class="header-logo-container">
+      <h2>DESCUBRE <br />BUENOS AIRES</h2>
+      <img class="logo-bs" src="../assets/buenos-aires-mapa.png" alt="buenos-aires-mapa" />
+      <img class="linea-logo" src="../assets/subrayado.png" alt="" />
+    </div>
+    <nav class="nav">
+      <ul class="header-ul">
+        <li><a href="../home.html">HOME</a></li>
+        <li><a href="./lugares.html">LUGARES</a></li>
+        <li><a href="./gastronomia.html">GASTRONOMIA</a></li>
+        <li><a href="./contact.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+    <span class="hamburger">
+      <div class="bars bar-1"></div>
+      <div class="bars bar-2"></div>
+      <div class="bars bar-3"></div>
+    </span>
+  </header>
+  <main>
+    <div class="contenido-ppal">
+      <section class="secciones">
+      </section>
+    </div>
+  </main>
 
-          <hr width="100%" align="right" />
-        </section>
+  <!-- Footer Menu -->
+  <footer id="footer">
 
-        <section class="secciones">
-          <br />
-          <h1>Ruta de la Carne</h1>
-          <br />
-          <article>
-            <h3>
-              En Buenos Aires podés encontrar cientos de parrillas en donde
-              comer asado. Algunas son más austeras y otras más gourmet, pero
-              todas ofrecen la misma experiencia: comer esa misma comida los
-              argentinos vivimos como un ritual social y familiar.
-            </h3>
-            <h3>
-              Los cortes de carne más populares son el asado de tira (costillar
-              cortado transversalmente), el bife de chorizo (T-Bone Steak
-              deshuesado), entraña y vacío de res, además de algunos cortes de
-              cerdo, como el pechito o la bondiola. De acompañamiento se pide
-              ensalada de hortalizas o papas fritas.
-            </h3>
+    <!-- Copyright Section -->
+    <div class="copyright">
 
-            <br />
-          </article>
-          <article>
-            <img
-              src="/assets/imagenes-home/img_gastronomia_2b.jpg"
-              style="float: right; padding-right: 10px"
-              width="400"
-              height="240"
-              alt="Parrillas"
-            />
-            <div>
-              <h3 id="texto_seleccion">1. LA CABRERA</h3>
-              <h4>Dirección: Cabrera 5127, Palermo</h4>
-              <h3 id="texto_seleccion">2. EL DESNIVEL</h3>
-              <h4>Dirección: Defensa 855, San Telmo</h4>
-              <h3 id="texto_seleccion">3. EL FERROVIARIO</h3>
-              <h4>Dirección: Reservistas Argentinos 219, Liniers</h4>
-              <h3 id="texto_seleccion">4. LOS PLATITOS</h3>
-              <h4>Dirección: Avenida Rafael Obligado 7350, Núñez</h4>
-              <h3 id="texto_seleccion">5. EL POBRE LUIS</h3>
-              <h4>Dirección: Arribeños 2393, Núñez</h4>
-              <br />
-            </div>
-          </article>
-
-          <hr width="100%" align="right" />
-        </section>
-
-        <section class="secciones">
-          <br />
-          <h1>Ruta del Vino</h1>
-          <br />
-          <article>
-            <h3>
-              Una parte central de toda comida en la Argentina es el vino,
-              bebida predilecta para almorzar o cenar que suele encontrarse en
-              casi todos los hogares del país.
-            </h3>
-            <h3>
-              No sorprende entonces que las opciones a la hora de tomarlo sean
-              varias. El vino más representativo de Argentina es el Malbec.
-              Mayormente acá se utiliza una variedad de uvas que es proveniente
-              del sur de Francia, precisamente uno que se usaba con frecuencia
-              en Bordeaux.
-            </h3>
-
-            <br />
-          </article>
-          <article>
-            <img
-              src="/assets/imagenes-home/img_gastronomia_3e.jpg"
-              style="float: right; padding-right: 10px"
-              width="400"
-              height="240"
-              alt="Vineria"
-            />
-            <div>
-              <h3 id="texto_seleccion">1. ALDO’S WINE BAR</h3>
-              <h4>Dirección: República Árabe Siria 3037, Palermo</h4>
-              <h3 id="texto_seleccion">2. VICO</h3>
-              <h4>
-                Dirección: Gurruchaga 1149, Villa Crespo, y Honduras 5799,
-                Palermo
-              </h4>
-              <h3 id="texto_seleccion">3. NARANJA</h3>
-              <h4>Dirección: Ángel Justiniano Carranza 1059, Villa Crespo</h4>
-              <h3 id="texto_seleccion">4. VINA SAN TELMO</h3>
-              <h4>Dirección: Av. Caseros 474, San Telmo</h4>
-              <h3 id="texto_seleccion">5. NILSON</h3>
-              <h4>Dirección: Carlos Calvo 463, San Telmo</h4>
-              <br />
-            </div>
-          </article>
-
-          <hr width="100%" align="right" />
-        </section>
-
-        <section class="secciones">
-          <br />
-          <h1>Ruta de los Bodegones</h1>
-          <br />
-          <article>
-            <h3>
-              Los bodegones son parte del patrimonio histórico y cultural de la
-              Ciudad de Buenos Aires, por la estética retro que suelen exhibir y
-              porque los platos que ofrecen remiten a comida casera, por el
-              sabor y la abundancia. Con ese encanto, se convirtieron en
-              espacios de enorme popularidad y una referencia de porteños y
-              turistas para comer bien.
-            </h3>
-            <h3>
-              No sólo se encuentran abundancia en las presentaciones y platos
-              típicos del acerbo ciudadano, sino que además en muchas
-              oportunidades también tienen precios acomodados para diferentes
-              economías. El ambiente, por lo general, es familiar: mucha
-              liturgia, iluminación y sonido de la Ciudad.
-            </h3>
-
-            <br />
-          </article>
-          <article>
-            <img
-              src="/assets/imagenes-home/img_gastronomia_4.jpg"
-              style="float: right; padding-right: 10px"
-              width="400"
-              height="240"
-              alt="Bodegones"
-            />
-            <div>
-              <h3 id="texto_seleccion">1. EL FERROVIARIO</h3>
-              <h4>Dirección: Reservistas Argentinos 219, Liniers</h4>
-              <h3 id="texto_seleccion">2. EL ANTOJO</h3>
-              <h4>Dirección: Tinogasta 3174, Palermo</h4>
-              <h3 id="texto_seleccion">3. LA OCHAVITA</h3>
-              <h4>Dirección: Pieres 1399, Mataderos</h4>
-              <h3 id="texto_seleccion">4. MANOLO</h3>
-              <h4>Dirección: Bolívar 1299, San Telmo</h4>
-              <h3 id="texto_seleccion">5. EL OBRERO</h3>
-              <h4>Dirección: Agustín Caffarena 64, La Boca</h4>
-              <br />
-            </div>
-          </article>
-
-          <hr width="100%" align="right" /> -->
-        </section>
-      </div>
-    </main>
-
-<!-- Footer Menu -->
-<footer id="footer">
- 
-  <!-- Copyright Section -->
-  <div class="copyright">
-       
-<p>Milagros Florenza / Joaquín Parada / Carla González</p>
-<p>© 2022 Todos los derechos Reservados | Para Codo a Codo</p>
+      <p>Milagros Florenza / Joaquín Parada / Carla González</p>
+      <p>© 2022 Todos los derechos Reservados | Para Codo a Codo</p>
 
 
 
       <ul class="contact">
-          <li>
-              <a href="#" class="fa fa-twitter">
+        <li>
+          <a href="#" class="fa fa-twitter">
 
-              </a>
-          </li>
+          </a>
+        </li>
 
-          <li>
-              <a href="#" class="fa fa-facebook">
+        <li>
+          <a href="#" class="fa fa-facebook">
 
-              </a>
-          </li>
+          </a>
+        </li>
 
-          <li>
-              <a href="#" class="fa fa-pinterest-p">
+        <li>
+          <a href="#" class="fa fa-pinterest-p">
 
-              </a>
-          </li>
+          </a>
+        </li>
       </ul>
-  </div>
-</footer>    
+    </div>
+  </footer>
 
-    <script src="../js/home.js"></script>
-    <script src="../js/gastronomia.js"></script>
-  </body>
+  <script src="../js/home.js"></script>
+  <script src="../js/gastronomia.js"></script>
+</body>
+
 </html>

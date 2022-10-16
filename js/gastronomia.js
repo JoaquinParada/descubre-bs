@@ -10,33 +10,33 @@ function traerGastronomia(data) {
     console.log(el.lugares[1][1]);
     let gastronomiaHTML = `
         <article class="gastronomia-article">
-          <h2>${el.comida}</h2>
+          <h2 class="gastronomia-titulo">${el.comida}</h2>
           <p class="texto-gastronomia">${el.descripcion}</p>
           <div class="gastronomia-info-container">
             <ul class="ul-gastronomia">
-              <li><b>${el.lugares[0][0]}</b>
+              <li><b class="gastronomia-local-titulo">${el.lugares[0][0]}</b>
                 <ul>
-                  <li>${el.lugares[0][1]}</li>
+                  <li class="local-direccion">${el.lugares[0][1]}</li>
                 </ul>
               </li>
-              <li><b>${el.lugares[1][0]}</b>
+              <li><b class="gastronomia-local-titulo">${el.lugares[1][0]}</b>
                 <ul>
-                  <li>${el.lugares[1][1]}</li>
+                  <li class="local-direccion">${el.lugares[1][1]}</li>
                 </ul>
               </li>
-              <li><b>${el.lugares[2][0]}</b>
+              <li><b class="gastronomia-local-titulo">${el.lugares[2][0]}</b>
                 <ul>
-                  <li>${el.lugares[2][1]}</li>
+                  <li class="local-direccion">${el.lugares[2][1]}</li>
                 </ul>
               </li>
-              <li><b>${el.lugares[3][0]}</b>
+              <li><b class="gastronomia-local-titulo">${el.lugares[3][0]}</b>
                 <ul>
-                  <li>${el.lugares[3][1]}</li>
+                  <li class="local-direccion">${el.lugares[3][1]}</li>
                 </ul>
               </li>
-              <li><b>${el.lugares[4][0]}</b>
+              <li><b class="gastronomia-local-titulo">${el.lugares[4][0]}</b>
                 <ul>
-                  <li>${el.lugares[4][1]}</li>
+                  <li class="local-direccion">${el.lugares[4][1]}</li>
                 </ul>
               </li>
             </ul>
