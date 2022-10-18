@@ -1,6 +1,6 @@
 /* lugares estilo propios dentro de la pagina lugares.html */
 .main-lugares {
-  padding: 70px 50px;
+  padding: 90px 50px;
   font-family: var(--roboto);
   display: flex;
   flex-direction: column;
@@ -12,7 +12,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 350px;
+  height: 350px;
 }
 .filtro-section h2{
   font-size: 40px;
@@ -144,6 +144,18 @@
 
 @media screen and (max-width: 700px) {
   /* media de lugares */
+  .filtro-section {
+    height: 250px;
+  }
+  .filtro-section h2{
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+  .filtro-card img{
+    width: 50px;  
+  }
+
+  
   .frames-lugar-container {
     display: flex;
     gap: 30px;
