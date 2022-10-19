@@ -4,11 +4,11 @@
     "descripcion": "La pizza nació en Nápoles y es uno de los platos más emblemáticos de la gastronomía italiana. Su influencia se extendió a todo el mundo de la mano de inmigrantes italianos, que llevaron sus recetas a cada rincón del planeta. En la Argentina, la pizza se reversionó en Buenos Aires con un estilo propio: la porteña, que son con masas al molde con mucho queso por encima, como las que se pueden encontrar en las pizzerías de la Avenida Corrientes. Sin embargo, son muchos los adeptos y cada vez más los lugares que cocinan la verdadera pizza italiana, de masa bien finita y bordes aireados.",
     "imagen": "../assets/imagenes-gastronomia/pizza.png",
     "lugares": [
-      ["Guerrin", "Avenida Corrientes 1368"],
-      ["Bachero", "Av. Corrientes 1300 y Av. Corrientes 1604"],
-      ["Los Importales", "Avenida Corrientes 1369"],
-      ["El palacio de la Pizza", "Av. Corrientes 751"],
-      ["Las Cuartetas", "Avenida Corrientes 838"]
+      ["Guerrin", "Avenida Corrientes 1368", "https://www.guerrin.com.ar/"],
+      ["Bachero", "Av. Corrientes 1300 y Av. Corrientes 1604", "https://es-la.facebook.com/pizzeriabanchero/"],
+      ["Los Importales", "Avenida Corrientes 1369", "https://www.losinmortales.com/"],
+      ["El palacio de la Pizza", "Av. Corrientes 751", "https://es-la.facebook.com/elpalaciodelapizzasrl/"],
+      ["Las Cuartetas", "Avenida Corrientes 838", "http://www.lascuartetas.com/"]
     ]
   },
   {
@@ -16,11 +16,11 @@
     "descripcion": "En Buenos Aires podés encontrar cientos de parrillas en donde comer asado. Algunas son más austeras y otras más gourmet, pero todas ofrecen la misma experiencia: comer esa misma comida los argentinos vivimos como un ritual social y familiar. Los cortes de carne más populares son el asado de tira (costillar cortado transversalmente), el bife de chorizo (T-Bone Steak deshuesado), entraña y vacío de res, además de algunos cortes de cerdo, como el pechito o la bondiola. De acompañamiento se pide ensalada de hortalizas o papas fritas.",
     "imagen": "../assets/imagenes-gastronomia/carne.png",
     "lugares": [
-      ["La Cabrera", "Cabrera 5127, Palermo"],
-      ["EL DESNIVEL", "Defensa 855, San Telmo"],
-      ["EL FERROVIARIO", "Reservistas Argentinos 219, Liniers"],
-      ["LOS PLATITOS", "Av. Rafael Obligado 7350, Núñez"],
-      ["EL POBRE LUIS", "Arribeños 2393, Núñez"]
+      ["La Cabrera", "Cabrera 5127, Palermo", "http://www.lacabrera.com.ar/"],
+      ["EL DESNIVEL", "Defensa 855, San Telmo", "https://www.facebook.com/people/Desnivel/100039618427124/"],
+      ["EL FERROVIARIO", "Reservistas Argentinos 219, Liniers", "https://www.elferroviarioparrilla.com/"],
+      ["LOS PLATITOS", "Av. Rafael Obligado 7350, Núñez", "https://www.tripadvisor.com.ar/Restaurant_Review-g312741-d1083969-Reviews-Los_Platitos-Buenos_Aires_Capital_Federal_District.html"],
+      ["EL POBRE LUIS", "Arribeños 2393, Núñez", "https://www.parrillaelpobreluis.com.ar/"]
     ]
   },
   {
@@ -28,11 +28,11 @@
     "descripcion": "Una parte central de toda comida en la Argentina es el vino, bebida predilecta para almorzar o cenar que suele encontrarse en casi todos los hogares del país. No sorprende entonces que las opciones a la hora de tomarlo sean varias. El vino más representativo de Argentina es el Malbec. Mayormente acá se utiliza una variedad de uvas que es proveniente del sur de Francia, precisamente uno que se usaba con frecuencia en Bordeaux.",
     "imagen": "../assets/imagenes-gastronomia/vino.png",
     "lugares": [
-      ["ALDO'S WINE BAR", "República Árabe Siria 3037, Palermo"],
-      ["VICO", "Gurruchaga 1149, Villa Crespo, y Honduras 5799, Palermo"],
-      ["NARANJA", "Ángel Justiniano Carranza 1059, Villa Crespo"],
-      ["VINA SAN TELMO", " Av. Caseros 474, San Telmo"],
-      ["NILSON", "Carlos Calvo 463, San Telmo"]
+      ["ALDO'S WINE BAR", "República Árabe Siria 3037, Palermo", "https://www.aldosvinoteca.com/"],
+      ["VICO", "Gurruchaga 1149, Villa Crespo, y Honduras 5799, Palermo", "https://www.vicowinebar.com.ar/"],
+      ["NARANJO", "Ángel Justiniano Carranza 1059, Villa Crespo", "https://soloporgusto.com/naranjo-bar/"],
+      ["VINA SAN TELMO", " Av. Caseros 474, San Telmo", "https://www.instagram.com/vinasantelmo_/?hl=en"],
+      ["NILSON", "Carlos Calvo 463, San Telmo", "https://www.instagram.com/nilson.une/?hl=en"]
     ]
   },
   {
@@ -40,11 +40,11 @@
     "descripcion": "Los bodegones son parte del patrimonio histórico y cultural de la Ciudad de Buenos Aires, por la estética retro que suelen exhibir y porque los platos que ofrecen remiten a comida casera, por el sabor y la abundancia. Con ese encanto, se convirtieron en espacios de enorme popularidad y una referencia de porteños y turistas para comer bien. No sólo se encuentran abundancia en las presentaciones y platos típicos del acerbo ciudadano, sino que además en muchas oportunidades también tienen precios acomodados para diferentes economías. El ambiente, por lo general, es familiar: mucha liturgia, iluminación y sonido de la Ciudad.",
     "imagen": "../assets/imagenes-gastronomia/bodegon.png",
     "lugares": [
-      ["EL FERROVIARIO", "Reservistas Argentinos 219, Liniers"],
-      ["EL ANTOJO", "Tinogasta 3174, Palermo"],
-      ["LA OCHAVITA", "Pieres 1399, Mataderos"],
-      ["MANOLO", " Bolívar 1299, San Telmo"],
-      ["EL OBRERO", "Agustín Caffarena 64, La Boca"]
+      ["OCHO ESQUINAS", "Av. Forest 1186, Colegiales", "http://www.ochoesquinas.com.ar/"],
+      ["EL ANTOJO", "Tinogasta 3174, Palermo", "https://www.instagram.com/elantojo_ok3/?hl=en"],
+      ["EL GLOBO", "Av. Hipólito Yrigoyen 1199, Monserrat", "https://www.instagram.com/restaurantelglobo/?hl=en"],
+      ["MANOLO", " Bolívar 1299, San Telmo", "https://www.restaurantmanolo.com.ar/"],
+      ["EL OBRERO", "Agustín Caffarena 64, La Boca", "https://www.instagram.com/elobrero1954/?hl=en"]
     ]
   }
 ]

@@ -37,6 +37,16 @@ main {
 .gastronomia-local-titulo{
   font-family: var(--font-2);
   font-size: 20px;
+  cursor: pointer;
+}
+.gastronomia-local-titulo a{
+  font-style: none;
+  color: black;
+  padding: 7px 5px;
+  transition: .5s all;
+}
+.gastronomia-local-titulo a:hover{
+  background-color: rgb(253, 223, 89);
 }
 .local-direccion{
   padding: 10px 0 0 30px;
