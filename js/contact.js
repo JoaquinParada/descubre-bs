@@ -26,13 +26,14 @@ function slideNav() {
 //Funcion Formulario
 let inputNombre = document.querySelector("#nombre");
 let inputMail = document.querySelector("#email");
+let submitCard = document.querySelector(".submit-card");
 
 let form = document.querySelector('#form');
 form.addEventListener('submit', handleSubmit);
 
 async function handleSubmit(event) {
   event.preventDefault();
-  if(validacion()){
+  if (validacion()) {
     const form = new FormData(this)
     const response = await fetch(this.action, {
       method: this.method,
@@ -41,15 +42,15 @@ async function handleSubmit(event) {
         'Accept': 'application/json'
       }
     })
-  
+
     if (response.ok) {
       this.reset()
-      alert('Respuesta API - Gracias por contactarme')
+      mostrarModalSubmit();
     }
-    inputNombre.value= "";
-    inputMail.value="";
+    inputNombre.value = "";
+    inputMail.value = "";
   }
-  else{
+  else {
     return;
   }
 }
@@ -77,6 +78,15 @@ function validacion() {
     return false;
   }
 
-  alert("Gracias por compeltar sus datos!!");
   return true;
+}
+
+
+function mostrarModalSubmit() {
+  submitCard.style.display = "flex";
+
+  setTimeout(() => {
+    submitCard.style.display = "none";
+  }, 2000);
+
 }
