@@ -58,11 +58,12 @@ async function handleSubmit(event) {
 
 function validacion() {
   // VALIDACION NOMBRE
+  let regexNum = /[0-9]/;
   let valorNombre = inputNombre.value;
-  if (valorNombre == null || valorNombre.length == 0) {
+  if (valorNombre == null || valorNombre.length == 0 || regexNum.test(valorNombre)) {
     let elemento = document.getElementById('nombre');
     elemento.focus();
-    alert("Ingrese Nombre!!");
+    alert("Ingrese Nombre Valido!!");
     return false;
   }
 
@@ -74,7 +75,7 @@ function validacion() {
     let elementoMail = document.getElementById('email');
     elementoMail.value = '';
     elementoMail.focus();
-    alert("Ingrese Email!!");
+    alert("Ingrese Email Valido!!");
     return false;
   }
 
