@@ -1,6 +1,6 @@
-#DESCUBRE BUENOS AIRES
-##Proyecto codo a codo frontend
-###visualizar el sitio
+# DESCUBRE BUENOS AIRES
+## Proyecto codo a codo frontend
+### visualizar el sitio
 https://joaquinparada.github.io/descubre-bs/
 
 ------------
@@ -22,7 +22,7 @@ Se implemento, html, css y javaScript vanilla.
 
 ------------
 
-###Integrantes
+### Integrantes
 * Carla González
 * Joaquín Parada
 * Milagros Florenza
