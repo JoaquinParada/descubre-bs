@@ -87,6 +87,6 @@ function mostrarModalSubmit() {
 
   setTimeout(() => {
     submitCard.style.display = "none";
-  }, 2000);
+  }, 3500);
 
 }
